@@ -1,0 +1,8 @@
+Name: Jessie Devine
+Date: 02/02/2017
+
+This is my first text document for MART 340 - Web Development.
+
+I added a new line to this file in my text editor!!!
+
+I've made a change to track.
