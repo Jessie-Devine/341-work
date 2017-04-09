@@ -1,4 +1,4 @@
-#Jessie Devine 51
+# Jessie Devine 51
 
 This homework cycle, I finally feel like I have my stuff together. I understood the directions clearly, and I didn't run across many issues. Early in the week, I started on my recipe. The first part was pretty easy. I had some fun with it.
 
