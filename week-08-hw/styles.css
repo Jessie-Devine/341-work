@@ -1,0 +1,70 @@
+body {
+    font-family: arial;
+    color: #9f8170;
+    background-color: beige;
+    line-height: 1.45;
+
+}
+
+h1 {
+    font-family: 'cookies&milk';
+        src:url(cookies&milk-regular.ttf) format('truetype');
+    color: coral;
+    font-size: 500%
+
+}
+
+blue {
+    font-family: 'cookies&milk';
+    color: skyblue;
+    font-size: 300%
+    
+}
+
+lazy {
+    font-family: 'arial';
+    color: #9f8170;
+    font-size: 100%;
+    text-decoration: line-through;
+    
+    
+}
+
+.hover-element {
+    font-family: 'cookies&milk';
+    color: skyblue;
+    font-size: 300%;
+   
+}
+.hover-element:hover {
+    font-family: 'cookies&milk';
+    color: skyblue;
+    font-size: 300%;
+    background-image: url(clock.gif);
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+strong {
+    font-family: 'arial';
+    color: #9f8170;
+    font-size: 100%;
+    
+    
+}
+
+.rotateimg180 {
+  -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.text-element::first-letter {
+    color:coral;
+    font-size:200%;
+    font-family:'cookies&milk';
+    font-weight: 800
+}
