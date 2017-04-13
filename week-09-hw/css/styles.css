@@ -1,0 +1,143 @@
+body {
+    font-family: arial;
+    color: ;
+    background-image:url(koi3.jpg);
+    line-height: 1.45;
+}
+
+.padding {
+    padding: .5em;
+    
+}
+
+.padding2 {
+    padding:0.25em;
+    
+}
+
+.big-box {
+    background-color: #9F81F7;
+    width:50%;
+    height:45%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:.1em;
+    margin-top:2.5em;
+    
+}
+
+.nav-box {
+    background-color: #ff5079;
+    width:100%;
+
+    
+}
+
+.box {
+    background-color: #ff5079;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 14em;
+    text-align: center;
+    width:60%;
+    border-width: .5em;
+    border-style: solid;
+    border-color: white;
+    text-shadow: 2px 2px #9F81F7;
+}
+
+.box2 {
+    background-color: #ffa483;
+    margin-left:auto;
+    margin-right:auto;
+    border-color: white;
+    height: 25pt;
+    text-align:center;
+    
+}
+
+.hover-element:hover {
+    background-color: #CEF6F5;
+    font-variant-caps: small-caps;
+    color:#ff5079;
+
+}
+
+.center-box {
+    font-size: 50pt;
+    font-family: 'georgina';
+        src:url(Georgina.ttf);
+    color:white;
+  
+
+}
+
+.menu-box {
+    font-family: 'georgina';
+    background-color:pink;
+    font-size: 25pt;
+    color:#9F81F7;
+    float:left;
+    text-align:center;
+    font-variant:small-caps;
+
+    
+}
+
+a:link {
+    color:#9F81F7;
+    text-decoration:none;
+    
+}
+
+a:visited {
+    color:#9F81F7;
+    text-decoration:none;
+    
+}
+
+a:hover {
+    color:white;
+    text-decoration:none;
+}
+
+
+.side-box {
+    background-color:azure;
+    float:left;
+    padding:.75em;
+    width:19.5%;
+    margin-right:2em;
+    font-family:georgina;
+    line-height: .75em;
+    font-size:200%;
+    color:lightgrey;
+
+    
+}
+
+
+.link {
+    font-family: 'georgina';
+    color:white;
+    font-size: 25pt;
+    
+}
+
+.dropdown {
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 675px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display:grid;
+}
