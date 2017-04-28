@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    color: gray;
+    font-family: "Times New Roman";
+}
+
+.bulldog1, .bulldog2, .bulldog3 {
+    position: relative;
+    opacity: 0.65;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.bulldog1 {
+    min-height: 100vh;
+    background-image: url("images/bulldog.jpg");
+}
+
+.bulldog2 {
+    min-height: 500px;
+    background-image: url("images/bulldog2.jpg");
+}
+
+.bulldog3 {
+    min-height: 500px;
+    background-image: url("images/bulldog3.jpg");
+}
+
+.first-block {
+    padding: 10px;
+    line-height: 1.45;
+    color: #777;
+    background-color: wheat;
+   
+}
+
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-image:url(images/bulldog4.gif);
+}
+
+.description-container {
+    position: relative;
+}
+
+.description {
+    padding: 50px 80px;
+    color: #ddd;
+    background-color: #58461d;
+    text-align: center;
+}
+
+.caption span.border1 {
+    padding: 50px;
+    color: #f7f7f7;
+    background-image:url(images/bulldog6.gif);
+    font-size: 25px;
+}
+
+.caption span.border2 {
+    padding: 50px;
+    color: #f7f7f7;
+    background-image:url(images/bulldog7.gif);
+    font-size: 25px;
+}
+
+.caption span.border3 {
+    padding: 75px;
+    color: #f7f7f7;
+    background-image:url(images/bulldog9.gif);
+    font-size: 25px;
+
+}
+
+h2 {
+    color: #111;
+    text-transform: uppercase;
+    font-family:"Times New Roman";
+    letter-spacing: 5px;
+}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
