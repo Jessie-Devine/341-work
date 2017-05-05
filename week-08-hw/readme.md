@@ -6,4 +6,4 @@ I had a lot of fun writing the story this week. I included a few animated GIFs a
 
 3. I LOVE all the names of the CSS colors! They're adorable. I mean, come on. Firebrick? Peachpuff? 😍
 
-![Image](images/image2.JPG)
+![Image](Images/image2.JPG)
